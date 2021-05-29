@@ -2,12 +2,13 @@ package com.cadastro.seguranca.utils;
 
 import org.springframework.security.crypto.bcrypt.BCrypt;
 
-public class AdicionarCriptografia {
+public class AddCrypt {
 
     //https://www.alura.com.br/artigos/autenticacao-de-forma-segura-com-criptografia
 
-    public String criptografar(String senha) {
-        String salGerado = BCrypt.gensalt();
-        return BCrypt.hashpw(senha, salGerado);
+    public String crypt(String password) {
+        String generatedSalt = BCrypt.gensalt();
+        return BCrypt.hashpw(password, generatedSalt);
     }
+
 }

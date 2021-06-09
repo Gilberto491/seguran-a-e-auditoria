@@ -21,6 +21,5 @@ Segundo passo é ter o insomnia instalado e criar a requisição para pegar o to
 https://prnt.sc/13j6ldy
 https://prnt.sc/13j6mbb
 
-Terceiro passado é pegar o token gerado e usar em todas as outras requisições que se encontra aqui
+Terceiro passado é pegar o token gerado e usar em todas as outras requisições que se encontrano swagger
 
-http://localhost:8080/swagger.ui.html#/

@@ -28,7 +28,7 @@ public class ClientServiceImpl implements ClientService {
             setClient(clientDTO);
 
        }catch (Exception e) {
-           throw new RuntimeException(e.getMessage());
+           throw new MessageAggregationException(e.getMessage());
        }
     }
 

@@ -12,9 +12,9 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class ClientPagedFilterResquestDTO {
 
-    private Long cdClient;
-    private String email;
-    private String name;
-    public CivilStatus status;
+    Long cdClient;
+    String email;
+    String name;
+    public final CivilStatus status;
 
 }

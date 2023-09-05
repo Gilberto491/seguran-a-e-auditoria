@@ -12,11 +12,11 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class ClientDTO {
 
-    private Long cdClient;
-    private String telephone;
-    private String email;
-    private String name;
-    private String password;
-    private CivilStatus status;
+    Long cdClient;
+    String telephone;
+    String email;
+    String name;
+    String password;
+    CivilStatus status;
 
 }
